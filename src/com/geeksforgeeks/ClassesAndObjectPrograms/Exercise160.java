@@ -7,7 +7,7 @@ abstract class Aas {
     public abstract String toString();
 
     public Aas(String a){
-        System.out.println("Aas constructor called");
+        System.out.println("Aas constructor called ");
         this.a=a;
     }
     public String getColor() {
