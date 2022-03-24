@@ -14,6 +14,9 @@ public class Exercise185 {
         if (flag == true) {
             System.out.println("Array is equal");
         }
+        else {
+            System.out.println("Array is not equal");
+        }
     }
         }
 
