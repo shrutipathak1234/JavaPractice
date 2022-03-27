@@ -5,10 +5,9 @@ public class Exercise196 {
     public static void main(String[] args) {
 
         String s1 = "ABCD";
-        String s2 = "ACD";
-        String s3 = "ABCDEF";
+        String s2 = "ABCD";
         int ss =compareString(s1, s2);
-        if(ss>0){
+        if(ss > 0){
             System.out.println("String s1 is greater");
         }
         else if(ss < 0 )
@@ -17,8 +16,6 @@ public class Exercise196 {
         }
         else
             System.out.println("String s1 and s2 are equal");
-
-
 
     }
 
@@ -32,7 +29,6 @@ public class Exercise196 {
             if (c1 != c2) {
                 flag = false;
                 break;
-
             }
         }
         if (flag == true) {
