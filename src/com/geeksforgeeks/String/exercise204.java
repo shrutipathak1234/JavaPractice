@@ -4,11 +4,24 @@ package com.geeksforgeeks.String;
 //Output : example an is This
 public class exercise204 {
     public static void main(String args[]) {
-        String s[] = "This is an example".split(" ");
-        String result = "";
-        for (int i = s.length - 1; i >= 0; i--) {
-            result += s[i] + " ";
+        String s1 = "This is an example ";
+        String s2 = "";
+        String s3 = "";
+        for (int i = 0; i < s1.length(); i++) {
+
+
+            if(s1.charAt(i)==' ' )
+            {
+                s3 = s2+" "+s3;
+                s2 = "";
+
+            }
+        else{
+                s2 = s2 + s1.charAt(i);
+            }
+
+            }
+        System.out.println(s3);
         }
-        System.out.println("Reversed String: " + result);
-    }
-}
+
+        }
