@@ -9,6 +9,8 @@ public class Exercise208 {
         String s1 = "The quick brown fox jumps over the lazy dog.";
         String s2 = "fox";
         String s3 = "cat";
+        String s5 ="";
+        int length1ofs2 = s2.length();
         String s4 = "";
         int index = 17;
         for (int i = 0; i < s1.length()-1; i++) {
@@ -17,13 +19,20 @@ public class Exercise208 {
             }
             else {
                 if (s4.equals(s2)) {
+//                    int a =i;
+//                    int b = i-length1ofs2;
+//                    System.out.println(i);
+//                    System.out.println(b);
+//                    for(int j = 0 ; j < b ; j++){
+//                        s5 = s1.charAt(i)+s5;
                     s1=s1.substring(0,16)+s3+" "+s1.substring(20,44);
-                }
+                    }
                 else {
                     s4="";
                 }
                 }
             }
         System.out.println(s1);
+        System.out.println(s5);
         }
     }
