@@ -12,7 +12,6 @@ public class Exercise206 {
         for (int i = 0; i <= s1.length() - 1; i++) {
             if (s1.charAt(i) != ' ') {
                 s3 = s3+s1.charAt(i);
-
             }
 
             else {
@@ -23,7 +22,6 @@ public class Exercise206 {
                 else {
                    s3="";
                 }
-
             }
         }
         if(flag==false){
