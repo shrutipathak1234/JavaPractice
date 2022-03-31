@@ -2,7 +2,7 @@ package com.geeksforgeeks.String;
 //WAP to reverse a sentence.
 //Input : This is an example
 //Output : example an is This
-public class exercise204 {
+public class Exercise204 {
     public static void main(String args[]) {
         String s1 = "This is an example ";
         String s2 = "";
